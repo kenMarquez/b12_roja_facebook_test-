@@ -13,6 +13,7 @@ class Usuario:
         params = {"access_token": self.access_token}
         resultado = requests.get(self.url, params=params).json()
         print(resultado)
+        print("Hola")
         self.nombre = resultado["name"]
         return resultado
 
