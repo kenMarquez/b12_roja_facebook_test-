@@ -16,6 +16,7 @@ class Usuario:
         print("Hola")
         self.nombre = resultado["name"]
         return resultado
+        print("hola mundo")
 
 
 

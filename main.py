@@ -1,7 +1,5 @@
-from face_test_2.usuario import Usuario
 
-user = Usuario()
-
+print("Ya no hay programa :(")
 
 json = user.get_info()
 
